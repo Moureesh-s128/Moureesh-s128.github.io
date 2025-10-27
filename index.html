@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Whack The Mole</title>
-    <link rel="stylesheet" href="style.css ">
+    <link rel="stylesheet" href="index.css">
+    <title>Whack-a-Mole</title>
 </head>
 <body>
-    <div id="box">
-        <h1 >Whack-a-Mole</h1>
-        <span id="Score">Score: 0</span>
-        <div id="Gameboard">
-            <button class="Hole" id="Hole1"></button>
-            <button class="Hole" id="Hole2" ></button>
-            <button class="Hole" id="Hole3"></button>
-        </div>
-        <button id="Restart">Restart Game </button>
-    </div>
-</body>
-</html>
+     <div id="container">
+    <h1>Whack-a-Mole</h1>
+    <p>Score: <span id="score">0</span></p>
 
+    <div class="moles">
+      <div class="mole"></div>
+      <div class="mole"></div>
+      <div class="mole"></div>
+    </div>
+
+    <button id="restart-btn">Restart Game</button>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
